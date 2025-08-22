@@ -1,124 +1,67 @@
-/* === Global === */
+/* Importer une belle font depuis Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
 body {
-  font-family: 'Roboto', 'Arial', sans-serif;
+  font-family: 'Inter', sans-serif;
   margin: 0;
   padding: 0;
-  background: #f5f6fa; /* plus doux que #f9f9f9 */
-  color: #2c3e50;      /* un gris foncé élégant */
+  background: #f9fafb;
+  color: #1a1a1a;
   line-height: 1.6;
 }
 
-/* === Header === */
+/* Header élégant */
 header {
-  background: linear-gradient(90deg, #004080, #0074D9); /* dégradé bleu pro */
-  color: #fff;
+  background: linear-gradient(135deg, #004080, #0066cc);
+  color: white;
   padding: 1.5rem 2rem;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  position: sticky;
-  top: 0;
-  z-index: 100;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
 }
 
 header h1 {
   margin: 0;
   font-weight: 700;
-  font-size: 2rem;
 }
 
-header p {
-  margin: 0.3rem 0 0;
-  font-weight: 300;
-  font-size: 1rem;
-  opacity: 0.85;
-}
-
-/* === Navigation === */
+/* Navigation */
 nav {
   margin-top: 0.5rem;
 }
 
 nav a {
-  color: #fff;
-  margin-right: 1.5rem;
+  color: white;
+  margin: 0 1rem;
   text-decoration: none;
   font-weight: 500;
-  transition: all 0.3s ease;
+  transition: opacity 0.2s ease-in-out;
 }
 
 nav a:hover {
-  color: #ffd700; /* doré pour survol */
-  text-decoration: underline;
+  opacity: 0.8;
 }
 
-/* === Section Titles === */
-h2, h3 {
-  color: #004080;
-  margin-top: 2rem;
+/* Sections */
+section {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+  border-bottom: 2px solid #e5e5e5;
+  padding-bottom: 0.3rem;
   margin-bottom: 1rem;
-  font-weight: 600;
+  color: #004080;
 }
 
-/* === Links === */
-a {
-  color: #0074D9;
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-a:hover {
-  color: #00509E;
-  text-decoration: underline;
-}
-
-/* === Lists === */
-ul {
-  list-style: none; /* plus propre */
-  padding-left: 0;
-}
-
-li::before {
-  content: "• ";
-  color: #0074D9; /* bleu accent */
-  font-weight: bold;
-}
-
-/* === Footer === */
+/* Footer */
 footer {
   text-align: center;
-  font-size: 0.85rem;
-  color: #888;
+  font-size: 0.9rem;
+  color: #666;
   padding: 2rem 1rem;
-  border-top: 1px solid #ddd;
-  background: #f0f2f5;
-}
-
-/* === Cards / Sections === */
-.section-card {
-  background: #fff;
-  padding: 1.5rem 2rem;
-  margin: 1.5rem 0;
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.section-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
-}
-
-/* === Buttons / Call-to-action === */
-.button {
-  display: inline-block;
-  padding: 0.5rem 1.2rem;
-  background: #0074D9;
-  color: #fff;
-  border-radius: 6px;
-  font-weight: 500;
-  text-decoration: none;
-  transition: background 0.3s ease;
-}
-
-.button:hover {
-  background: #00509E;
+  border-top: 1px solid #e5e5e5;
+  margin-top: 3rem;
 }
