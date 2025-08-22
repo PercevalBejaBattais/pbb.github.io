@@ -72,3 +72,29 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+/* Header */
+.header-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+header .subtitle {
+  font-weight: 400;
+  font-size: 1rem;
+  color: rgba(255,255,255,0.85);
+  margin-top: 0.3rem;
+}
+
+/* Main wrapper */
+.content-wrapper {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
