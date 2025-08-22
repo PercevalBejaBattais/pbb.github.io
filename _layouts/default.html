@@ -7,19 +7,26 @@
   <link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
 </head>
 <body>
+
   <header>
-    <h1>{{ site.title }}</h1>
-    <nav>
-      <a href="{{ '/' | relative_url }}">Accueil</a>
-    </nav>
+    <div class="header-container">
+      <h1>{{ site.title }}</h1>
+      {% if page.subtitle %}
+        <p class="subtitle">{{ page.subtitle }}</p>
+      {% endif %}
+      <nav>
+        <a href="{{ '/' | relative_url }}">Accueil</a>
+      </nav>
+    </div>
   </header>
 
-  <main>
+  <main class="content-wrapper">
     {{ content }}
   </main>
 
   <footer>
     <p>&copy; {{ site.title }} - {{ site.description }}</p>
   </footer>
+
 </body>
 </html>
