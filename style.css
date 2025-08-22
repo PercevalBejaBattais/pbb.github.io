@@ -1,23 +1,124 @@
+/* === Global === */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Roboto', 'Arial', sans-serif;
   margin: 0;
   padding: 0;
-  background: #f9f9f9;
-  color: #333;
+  background: #f5f6fa; /* plus doux que #f9f9f9 */
+  color: #2c3e50;      /* un gris foncé élégant */
+  line-height: 1.6;
 }
 
+/* === Header === */
 header {
-  background: #004080;
-  color: white;
-  padding: 1rem;
+  background: linear-gradient(90deg, #004080, #0074D9); /* dégradé bleu pro */
+  color: #fff;
+  padding: 1.5rem 2rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+header h1 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+header p {
+  margin: 0.3rem 0 0;
+  font-weight: 300;
+  font-size: 1rem;
+  opacity: 0.85;
+}
+
+/* === Navigation === */
+nav {
+  margin-top: 0.5rem;
 }
 
 nav a {
-  color: white;
-  margin-right: 1rem;
+  color: #fff;
+  margin-right: 1.5rem;
   text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
 }
 
 nav a:hover {
+  color: #ffd700; /* doré pour survol */
   text-decoration: underline;
+}
+
+/* === Section Titles === */
+h2, h3 {
+  color: #004080;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+/* === Links === */
+a {
+  color: #0074D9;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #00509E;
+  text-decoration: underline;
+}
+
+/* === Lists === */
+ul {
+  list-style: none; /* plus propre */
+  padding-left: 0;
+}
+
+li::before {
+  content: "• ";
+  color: #0074D9; /* bleu accent */
+  font-weight: bold;
+}
+
+/* === Footer === */
+footer {
+  text-align: center;
+  font-size: 0.85rem;
+  color: #888;
+  padding: 2rem 1rem;
+  border-top: 1px solid #ddd;
+  background: #f0f2f5;
+}
+
+/* === Cards / Sections === */
+.section-card {
+  background: #fff;
+  padding: 1.5rem 2rem;
+  margin: 1.5rem 0;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.section-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+/* === Buttons / Call-to-action === */
+.button {
+  display: inline-block;
+  padding: 0.5rem 1.2rem;
+  background: #0074D9;
+  color: #fff;
+  border-radius: 6px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.button:hover {
+  background: #00509E;
 }
