@@ -12,6 +12,10 @@ I work on **Machine Learning** & **Optimization** applied to industrial problems
 
 ---
 
+<div class="two-columns">
+
+  <div class="column left">
+
 ## 🚀 Publications
 
 Explore my works on [Google Scholar](https://scholar.google.com/citations?user=Qt7AfjsAAAAJ&hl=fr)  
@@ -27,7 +31,9 @@ Explore my works on [Google Scholar](https://scholar.google.com/citations?user=Q
 - **2025** – *Mock Oral Exams* (Undergraduate level – Ipesup)  
 - **2021 – 2023** – *Mathematics Interrogations (Khôlles)* (Undergraduate level – Lycée Condorcet, Lycée Janson-de-Sailly)
 
----
+  </div>
+
+  <div class="column right">
 
 ## 📚 Education
 
@@ -44,6 +50,9 @@ I’m happy to discuss research, teaching, or collaborations:
 
 - [LinkedIn](https://www.linkedin.com/in/perceval-beja-battais-b043331b9/)  
 - [Email](mailto:perceval.beja-battais@ens-paris-saclay.fr)
+
+  </div>
+</div>
 
 ---
 
