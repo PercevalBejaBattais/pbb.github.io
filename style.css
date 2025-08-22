@@ -1,5 +1,5 @@
 /* Import d'une police moderne depuis Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
 
 body {
   font-family: 'Inter', sans-serif;
@@ -7,22 +7,32 @@ body {
   padding: 2rem 4rem;  /* espace sur les côtés et en haut */
   background: #f9fafb;
   color: #222;
-  line-height: 1.6;
+  line-height: 1.7;
+  font-size: 1rem;
 }
 
 /* En-tête moderne */
 header {
-  background: #2563eb; /* bleu moderne */
+  background: linear-gradient(135deg, #2563eb, #3b82f6); /* bleu dégradé moderne */
   color: white;
-  padding: 1.5rem 4rem;
+  padding: 2rem 4rem;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  border-radius: 0 0 12px 12px;
 }
 
 header h1 {
   margin: 0;
   font-weight: 600;
-  font-size: 1.8rem;
+  font-size: 2rem;
+}
+
+header .subtitle {
+  font-weight: 400;
+  font-size: 1rem;
+  color: rgba(255,255,255,0.85);
+  margin-top: 0.3rem;
 }
 
 /* Navigation */
@@ -32,7 +42,7 @@ nav {
 
 nav a {
   color: white;
-  margin-right: 1.5rem;
+  margin: 0 1.5rem;
   text-decoration: none;
   font-weight: 500;
   transition: opacity 0.2s ease-in-out;
@@ -42,29 +52,31 @@ nav a:hover {
   opacity: 0.8;
 }
 
-
 /* Contenu principal des pages Markdown */
-main {
+main, .content-wrapper {
   max-width: 800px;
   margin: 2rem auto;
-  padding: 2rem 2rem; /* padding top/bottom et left/right */
+  padding: 2rem 2.5rem; /* un peu plus à gauche */
   background: white;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-  /* Décalage supplémentaire à gauche */
-  padding-left: 2.5rem; /* ~10pts */
+  box-shadow: 0 6px 20px rgba(0,0,0,0.06);
 }
 
-
+/* Titres dans le contenu */
 main h2 {
-  margin-top: 1.5rem;
-  font-size: 1.4rem;
+  margin-top: 2rem;
+  font-size: 1.6rem;
   font-weight: 600;
   color: #111;
+  border-bottom: 2px solid #e5e5e5;
+  padding-bottom: 0.3rem;
 }
 
-main p {
+/* Paragraphes */
+main p, main li {
   margin: 1rem 0;
+  font-weight: 400;
+  color: #333;
 }
 
 /* Liens */
@@ -77,29 +89,24 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Header */
-.header-container {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 1rem 2rem;
+/* Footer */
+footer {
   text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+  padding: 2rem 1rem;
+  border-top: 1px solid #e5e5e5;
+  margin-top: 3rem;
+  background: #f9fafb;
+  border-radius: 12px 12px 0 0;
 }
 
-header .subtitle {
-  font-weight: 400;
-  font-size: 1rem;
-  color: rgba(255,255,255,0.85);
-  margin-top: 0.3rem;
+/* Listes */
+ul {
+  padding-left: 1.5rem;
 }
 
-/* Main wrapper */
-.content-wrapper {
-  max-width: 800px;
-  margin: 2rem auto;
-  padding: 2rem;
-  background: white;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+/* Mise en avant des sections */
+section {
+  margin-bottom: 2rem;
 }
-
-
