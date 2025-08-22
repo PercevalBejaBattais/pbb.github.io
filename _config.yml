@@ -9,9 +9,8 @@ url: "https://pbb.github.io/mon-site"
 # Infos auteur (facultatif mais utile pour référencement)
 author:
   name: "Perceval Beja-Battais"
-  email: "ton.email@exemple.com"
-  github: "ton-pseudo"
-  linkedin: "ton-profil"
+  email: "perceval.beja-battais@ens-paris-saclay.fr"
+  linkedin: ""
 
 # Options de Markdown
 markdown: kramdown
