@@ -12,9 +12,16 @@ My research focuses on **Machine Learning** & **Optimization** applied to indust
 
 ## 🚀 Publications
 
-- **2025 : Enhancing Nuclear Reactor Core Simulation through Data-Based Surrogate Models** with A. Grossetête & N. Vayatis (ICAPP 2025).
-- **2024 : LIPO+: Frugal Global Optimization for Lipschitz Functions** with G. Serré, S. Chirrane, A. Kalogeratos & N. Vayatis (SETN 2024).
+- **2025 : Enhancing Nuclear Reactor Core Simulation through Data-Based Surrogate Models** with A. Grossetête & N. Vayatis *(ICAPP 2025)*.
+- **2024 : LIPO+: Frugal Global Optimization for Lipschitz Functions** with G. Serré, S. Chirrane, A. Kalogeratos & N. Vayatis *(SETN 2024)*.
 - **2023 : Overview of AdaBoost: Reconciling its views to better understand its dynamics**.
+
+---
+
+## 🎓 Teaching
+
+- **2025** : *Mock Oral Exams* (Undergraduate level, IPESUP)  
+- **2021 – 2023** : *Mathematics Interrogations (Khôlles)* (Undergraduate level, Lycée Condorcet, Lycée Janson-de-Sailly)  
 
 ---
 
