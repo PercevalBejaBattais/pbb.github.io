@@ -1,0 +1,28 @@
+title: "Perceval Beja-Battais"
+description: "Doctorant en mathématiques appliquées – Machine Learning & Optimisation"
+theme: jekyll-theme-cayman
+
+# URL de ton site (GitHub va la générer automatiquement)
+baseurl: "" 
+url: "https://ton-pseudo.github.io/mon-site"  
+
+# Infos auteur (facultatif mais utile pour référencement)
+author:
+  name: "Perceval Béja-Battais"
+  email: "ton.email@exemple.com"
+  github: "ton-pseudo"
+  linkedin: "ton-profil"
+
+# Options de Markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# Navigation (si tu veux un menu automatique)
+nav:
+  - title: "Accueil"
+    url: "/"
+  - title: "Projets"
+    url: "/projets"
+  - title: "Contact"
+    url: "/contact"
