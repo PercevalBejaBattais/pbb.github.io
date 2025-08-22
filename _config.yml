@@ -10,7 +10,7 @@ url: "https://pbb.github.io/mon-site"
 author:
   name: "Perceval Beja-Battais"
   email: "perceval.beja-battais@ens-paris-saclay.fr"
-  linkedin: ""
+  linkedin: "https://www.linkedin.com/in/perceval-beja-battais-b043331b9/"
 
 # Options de Markdown
 markdown: kramdown
