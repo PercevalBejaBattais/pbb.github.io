@@ -1,27 +1,28 @@
-/* Importer une belle font depuis Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+/* Import d'une police moderne depuis Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
 
 body {
   font-family: 'Inter', sans-serif;
   margin: 0;
-  padding: 0;
+  padding: 2rem 4rem;  /* espace sur les côtés et en haut */
   background: #f9fafb;
-  color: #1a1a1a;
+  color: #222;
   line-height: 1.6;
 }
 
-/* Header élégant */
+/* En-tête moderne */
 header {
-  background: linear-gradient(135deg, #004080, #0066cc);
+  background: #2563eb; /* bleu moderne */
   color: white;
-  padding: 1.5rem 2rem;
-  text-align: center;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  padding: 1.5rem 4rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 header h1 {
   margin: 0;
-  font-weight: 700;
+  font-weight: 600;
+  font-size: 1.8rem;
 }
 
 /* Navigation */
@@ -31,7 +32,7 @@ nav {
 
 nav a {
   color: white;
-  margin: 0 1rem;
+  margin-right: 1.5rem;
   text-decoration: none;
   font-weight: 500;
   transition: opacity 0.2s ease-in-out;
@@ -41,47 +42,33 @@ nav a:hover {
   opacity: 0.8;
 }
 
-/* Sections */
-section {
+/* Contenu principal */
+main {
   max-width: 800px;
   margin: 2rem auto;
-  padding: 0 1rem;
+  padding: 2rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
 }
 
-h2 {
-  font-size: 1.8rem;
-  border-bottom: 2px solid #e5e5e5;
-  padding-bottom: 0.3rem;
-  margin-bottom: 1rem;
-  color: #004080;
+main h2 {
+  margin-top: 1.5rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #111;
 }
 
-/* Footer */
-footer {
-  text-align: center;
-  font-size: 0.9rem;
-  color: #666;
-  padding: 2rem 1rem;
-  border-top: 1px solid #e5e5e5;
-  margin-top: 3rem;
+main p {
+  margin: 1rem 0;
 }
 
-.two-columns {
-  display: flex;
-  gap: 40px;
-  margin-top: 20px;
+/* Liens */
+a {
+  color: #2563eb;
+  text-decoration: none;
 }
 
-.column {
-  flex: 1;
+a:hover {
+  text-decoration: underline;
 }
-
-.column.left {
-  border-right: 1px solid #ddd;
-  padding-right: 20px;
-}
-
-.column.right {
-  padding-left: 20px;
-}
-
