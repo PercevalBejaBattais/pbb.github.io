@@ -1,6 +1,8 @@
 ---
-layout: default
-title: Accueil
+layout: single
+permalink: /
+title: "👋 Welcome!"
+subtitle: "PhD Student in Applied Mathematics | Machine Learning & Optimization"
 ---
 
 # 👋 Welcome !
