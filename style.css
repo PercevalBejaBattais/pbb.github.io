@@ -65,3 +65,23 @@ footer {
   border-top: 1px solid #e5e5e5;
   margin-top: 3rem;
 }
+
+.two-columns {
+  display: flex;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.column {
+  flex: 1;
+}
+
+.column.left {
+  border-right: 1px solid #ddd;
+  padding-right: 20px;
+}
+
+.column.right {
+  padding-left: 20px;
+}
+
