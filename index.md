@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: default
 permalink: /
 title: "👋 Welcome!"
 subtitle: "PhD Student in Applied Mathematics | Machine Learning & Optimization"
