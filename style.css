@@ -33,14 +33,25 @@ header {
 }
 
 /* Photo profil */
-.profile-pic {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  object-fit: cover;
+.header-photo {
+  width: 140px;          /* largeur max du conteneur */
+  height: 140px;         /* hauteur max du conteneur */
+  border-radius: 50%;    /* cercle parfait */
+  overflow: hidden;      /* couper l’image si elle dépasse */
+  flex-shrink: 0;        /* éviter que le conteneur se réduise */
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: 3px solid white;
-  box-shadow: 0 3px 8px rgba(0,0,0,0.25);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.25);
 }
+
+.profile-pic {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;     /* recadrage automatique pour remplir le cercle */
+}
+
 
 /* Texte à gauche de la photo */
 .header-text {
