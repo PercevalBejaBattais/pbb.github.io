@@ -34,8 +34,8 @@ header {
 
 /* Photo profil */
 .header-photo {
-  width: 140px;          /* largeur max du conteneur */
-  height: 140px;         /* hauteur max du conteneur */
+  width: 200px;          /* largeur max du conteneur */
+  height: 200px;         /* hauteur max du conteneur */
   border-radius: 50%;    /* cercle parfait */
   overflow: hidden;      /* couper l’image si elle dépasse */
   flex-shrink: 0;        /* éviter que le conteneur se réduise */
