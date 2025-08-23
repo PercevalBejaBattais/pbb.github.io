@@ -12,5 +12,5 @@ I work on **Machine Learning** & **Optimization** applied to industrial problems
 
 
 <footer style="font-size: 0.8em; color: gray;">
-&copy; [<-](https://gaetanserre.fr/) Webring des délices [->](https://eloicampagne.fr/)
+&copy; [<-](gaetanserre.fr/) Webring des délices [->](https://eloicampagne.fr/)
 </footer>
