@@ -7,26 +7,25 @@
   <link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
 </head>
 <body>
-
   <header>
     <div class="header-container">
-      <h1>{{ site.title }}</h1>
-      {% if page.subtitle %}
+      <img src="{{ '/assets/img/photo.jpg' | relative_url }}" alt="Photo de {{ site.title }}" class="profile-pic">
+      <div class="header-text">
+        <h1>{{ site.title }}</h1>
         <p class="subtitle">{{ page.subtitle }}</p>
-      {% endif %}
-      <nav>
-        <a href="{{ '/' | relative_url }}">Accueil</a>
-      </nav>
+      </div>
     </div>
+    <nav>
+      <a href="{{ '/' | relative_url }}">Accueil</a>
+    </nav>
   </header>
 
-  <main class="content-wrapper">
+  <main>
     {{ content }}
   </main>
 
   <footer>
     <p>&copy; {{ site.title }} - {{ site.description }}</p>
   </footer>
-
 </body>
 </html>
