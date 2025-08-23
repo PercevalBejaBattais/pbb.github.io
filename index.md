@@ -17,5 +17,6 @@ Prior to my PhD, I graduated from **[Mines Nancy](https://mines-nancy.univ-lorra
 In the longer term, I am interested in exploring how advanced learning-based methods can be integrated into industrial decision-making processes, both in energy and beyond, and I am open to interdisciplinary collaborations at the interface between mathematics, physics and computer science.
 
 <footer style="font-size: 0.8em; color: gray;">
-&copy; [<-](gaetanserre.fr/) Webring des délices [->](https://eloicampagne.fr/)
+&copy; <a href="https://gaetanserre.fr/">&#8592;</a> Webring des délices <a href="https://eloicampagne.fr/">&#8594;</a>
 </footer>
+
