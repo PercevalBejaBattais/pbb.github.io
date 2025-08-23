@@ -1,6 +1,5 @@
 ---
 layout: default
-permalink: /
 title: "Perceval Beja-Battais"
 subtitle: "PhD Student in Applied Mathematics | Machine Learning & Optimization"
 ---
