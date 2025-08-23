@@ -4,28 +4,22 @@
 body {
   font-family: 'Inter', sans-serif;
   margin: 0;
-  padding: 2rem 4rem;  /* espace sur les côtés et en haut */
-  background: #f9fafb;
-  color: #222;
-  line-height: 1.7;
-  font-size: 1rem;
-}
-
-/* En-tête moderne */
-header {
-  background: linear-gradient(135deg, #2563eb, #3b82f6); /* bleu dégradé moderne */
-  color: white;
   padding: 2rem 4rem;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  text-align: center;
-  border-radius: 0 0 12px 12px;
+  background: #f4f5f7; /* gris clair tamisé */
+  color: #2c2c2c;
+  line-height: 1.75;
+  font-size: 1.05rem;
 }
 
-header h1 {
-  margin: 0;
-  font-weight: 600;
-  font-size: 2rem;
+/* En-tête */
+header {
+  background: #1e40af; /* bleu plus profond, moins flashy */
+  color: white;
+  padding: 2.5rem 4rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.12);
+  text-align: center;
+  border-radius: 0 0 16px 16px;
 }
 
 /* Container du header */
@@ -33,81 +27,105 @@ header h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 1.5rem; /* espace entre photo et texte */
-  max-width: 900px;
+  gap: 2rem;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
-/* Photo profil ronde */
+/* Photo profil */
 .profile-pic {
-  width: 100px;
-  height: 100px;
+  width: 110px;
+  height: 110px;
   border-radius: 50%;
-  object-fit: cover; /* recadre bien l’image */
-  border: 3px solid white; /* petit contour propre */
-  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  object-fit: cover;
+  border: 3px solid white;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.25);
 }
 
-/* Texte à droite de la photo */
 .header-text {
   text-align: left;
 }
 
-header .subtitle {
-  font-weight: 400;
-  font-size: 1rem;
-  color: rgba(255,255,255,0.9);
-  margin-top: 0.3rem;
+header h1 {
+  margin: 0;
+  font-weight: 600;
+  font-size: 2.1rem;
 }
 
+header .subtitle {
+  font-weight: 400;
+  font-size: 1.05rem;
+  color: rgba(255,255,255,0.85);
+  margin-top: 0.4rem;
+}
 
 /* Navigation */
 nav {
-  margin-top: 1rem;
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
 }
 
 nav a {
   color: white;
-  margin: 0 1rem;
+  font-weight: 500;
   text-decoration: none;
-  font-weight: bold;
+  font-size: 1.05rem;
+  position: relative;
+  padding-bottom: 0.2rem;
+  transition: color 0.2s ease;
 }
 
 nav a:hover {
-  text-decoration: underline;
+  color: #93c5fd; /* bleu clair doux */
 }
 
+nav a::after {
+  content: "";
+  display: block;
+  height: 2px;
+  background: #93c5fd;
+  width: 0%;
+  transition: width 0.3s ease;
+  margin: 0 auto;
+}
 
-/* Contenu principal des pages Markdown */
+nav a:hover::after {
+  width: 100%;
+}
+
+/* Contenu */
 main, .content-wrapper {
-  max-width: 800px;
-  margin: 2rem auto;
-  padding: 2rem 2.5rem; /* un peu plus à gauche */
-  background: white;
-  border-radius: 12px;
-  box-shadow: 0 6px 20px rgba(0,0,0,0.06);
+  max-width: 900px;
+  margin: 2.5rem auto;
+  padding: 2.5rem 2.5rem;
+  background: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 6px 22px rgba(0,0,0,0.06);
 }
 
-/* Titres dans le contenu */
+/* Titres */
 main h2 {
   margin-top: 2rem;
   font-size: 1.6rem;
   font-weight: 600;
   color: #111;
-  border-bottom: 2px solid #e5e5e5;
+  border-bottom: 2px solid #e5e7eb;
   padding-bottom: 0.3rem;
 }
 
-/* Paragraphes */
+/* Texte */
 main p, main li {
-  margin: 1rem 0;
+  margin: 1.1rem 0;
   font-weight: 400;
   color: #333;
+  line-height: 1.75;
 }
 
 /* Liens */
 a {
-  color: #2563eb;
+  color: #1e40af;
   text-decoration: none;
 }
 
@@ -121,9 +139,9 @@ footer {
   font-size: 0.9rem;
   color: #666;
   padding: 2rem 1rem;
-  border-top: 1px solid #e5e5e5;
+  border-top: 1px solid #e5e7eb;
   margin-top: 3rem;
-  background: #f9fafb;
+  background: #f4f5f7;
   border-radius: 12px 12px 0 0;
 }
 
@@ -132,7 +150,7 @@ ul {
   padding-left: 1.5rem;
 }
 
-/* Mise en avant des sections */
+/* Sections */
 section {
   margin-bottom: 2rem;
 }
