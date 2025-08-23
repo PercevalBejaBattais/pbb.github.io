@@ -31,10 +31,16 @@ Explore my works on [Google Scholar](https://scholar.google.com/citations?user=Q
 
 ## 📚 Education
 
-- **2024–2027** – *PhD*, **[Centre Borelli](https://centreborelli.ens-paris-saclay.fr/fr), ENS Paris-Saclay**  
-- **2022–2023** – *[M2 MVA: Mathématiques, Vision, Apprentissage](https://www.master-mva.com/)*, ENS Paris-Saclay  
-- **2021–2022** – *[M2 Mathématiques de la modélisation](https://www.ljll.fr/MathModel/)*, Sorbonne Université  
+- **2024–2027** – *PhD Thesis*, **[Centre Borelli](https://centreborelli.ens-paris-saclay.fr/fr), ENS Paris-Saclay**  
+- **2022–2023** – *[M2 MVA: Mathématiques, Vision, Apprentissage](https://www.master-mva.com/)*, **ENS Paris-Saclay** 
+- **2021–2022** – *[M2 Mathématiques de la modélisation](https://www.ljll.fr/MathModel/)*, **Sorbonne Université**  
 - **2019–2022** – *Ingénieur Civil des Mines*, **[Mines Nancy](https://mines-nancy.univ-lorraine.fr/)**
+
+---
+
+## 🌐 Others
+
+- **2024** - 🏆 1st prize challenge Accent on Reinforcement Learning, *Collège de France*
 
 ---
 
@@ -48,5 +54,5 @@ I’m happy to discuss research, teaching, or collaborations:
 ---
 
 <footer style="font-size: 0.8em; color: gray;">
-&copy; 2025 – Perceval Beja-Battais
+&copy; [<-](https://gaetanserre.fr/) Webring des délices [->](https://eloicampagne.fr/)
 </footer>
