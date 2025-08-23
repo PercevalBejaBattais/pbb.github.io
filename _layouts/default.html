@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ site.title }}</title>
+  <title>Perceval Beja-Battais | {{ site.title }}</title>
   <link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
   <meta name="description" content="Perceval Beja-Battais – PhD student in Applied Mathematics, specializing in Machine Learning, Optimization and Numerical Simulation.">
   <meta name="keywords" content="Perceval Beja-Battais, PhD, Machine Learning, Optimization, Numerical Simulation, ENS Paris-Saclay">
@@ -13,17 +13,21 @@
 <body>
   <header>
     <div class="header-container">
+      <div class="header-photo">
+        <img class="profile-pic" src="{{ '/assets/img/photo.jpg' | relative_url }}" alt="Photo de profil">
+      </div>
       <div class="header-text">
-        <h1>{{ site.title }}</h1>
+        <!-- Nom en H1 pour le SEO -->
+        <h1>Perceval Beja-Battais</h1>
+        <!-- Sous-titre -->
+        <p class="subtitle">PhD Student in Applied Mathematics | Machine Learning & Optimization</p>
+
         <nav>
           <a href="{{ '/' | relative_url }}">About</a>
           <a href="{{ '/cv' | relative_url }}">CV</a>
           <a href="{{ '/contact' | relative_url }}">Contact</a>
           <a href="{{ '/references' | relative_url }}">References</a>
         </nav>
-      </div>
-      <div class="header-photo">
-        <img class="profile-pic" src="{{ '/assets/img/photo.jpg' | relative_url }}" alt="Photo de profil">
       </div>
     </div>
   </header>
@@ -33,7 +37,7 @@
   </main>
 
   <footer>
-    <p>&copy; {{ site.title }} - {{ site.description }}</p>
+    <p>&copy; Perceval Beja-Battais - {{ site.description }}</p>
   </footer>
 </body>
 </html>
