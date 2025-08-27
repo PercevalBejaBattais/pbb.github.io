@@ -32,6 +32,6 @@ Explore my works on [Google Scholar](https://scholar.google.com/citations?user=Q
 
 ## 🌐 Others
 
-- **2024** - 🏆 1st prize challenge Accent on Reinforcement Learning, *Collège de France*
+- **2024** - 🏆 1st prize challenge Accenta on Reinforcement Learning, *Collège de France*
 
 ---
