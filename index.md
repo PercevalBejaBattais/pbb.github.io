@@ -15,6 +15,13 @@ Prior to my PhD, I graduated from **[Mines Nancy](https://mines-nancy.univ-lorra
 
 In the longer term, I am interested in exploring how advanced learning-based methods can be integrated into decision-making processes, and I am open to interdisciplinary collaborations at the interface between mathematics, physics and computer science.
 
+# 🚀 Publications
+
+- **2025** – *A Practical Data-Driven Warm-Start Framework for Fast Nonlinear Model Predictive Control*, with G. Dupré, A. Grossetête & [Nicolas Vayatis](https://nvayatis.perso.math.cnrs.fr/)
+- **2025** – *Enhancing Nuclear Reactor Core Simulation through Data-Based Surrogate Models*, with A. Grossetête & [Nicolas Vayatis](https://nvayatis.perso.math.cnrs.fr/) *(ICAPP 2025)*
+- **2024** – *LIPO+: Frugal Global Optimization for Lipschitz Functions*, with [G. Serré](https://gaetanserre.fr/), S. Chirrane, [A. Kalogeratos](https://kalogeratos.com/psite/) & [N. Vayatis](https://nvayatis.perso.math.cnrs.fr/) *(SETN 2024)* - [Paper](https://dl.acm.org/doi/pdf/10.1145/3688671.3688763)
+- **2023** – *Overview of AdaBoost: Reconciling its views to better understand its dynamics* - [Paper](https://arxiv.org/pdf/2310.18323)
+
 <footer style="font-size: 0.8em; color: gray;">
 &copy; <a href="https://www.gas-abel.fr/ ">&#8592;</a> 🍩 Webring des délices 🍪 <a href="https://gaetanserre.fr/">&#8594;</a>
 </footer>
