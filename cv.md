@@ -8,6 +8,7 @@ subtitle: Know more about me !
 
 Explore my works on [Google Scholar](https://scholar.google.com/citations?user=Qt7AfjsAAAAJ&hl=fr)  
 
+- **2025** – *A Practical Data-Driven Warm-Start Framework for Fast Nonlinear Model Predictive Control*, with G. Dupré, A. Grossetête & [Nicolas Vayatis](https://nvayatis.perso.math.cnrs.fr/)
 - **2025** – *Enhancing Nuclear Reactor Core Simulation through Data-Based Surrogate Models*, with A. Grossetête & [Nicolas Vayatis](https://nvayatis.perso.math.cnrs.fr/) *(ICAPP 2025)*
 - **2024** – *LIPO+: Frugal Global Optimization for Lipschitz Functions*, with [G. Serré](https://gaetanserre.fr/), S. Chirrane, [A. Kalogeratos](https://kalogeratos.com/psite/) & [N. Vayatis](https://nvayatis.perso.math.cnrs.fr/) *(SETN 2024)*
 - **2023** – *Overview of AdaBoost: Reconciling its views to better understand its dynamics*
